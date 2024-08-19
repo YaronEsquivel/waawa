@@ -1,0 +1,43 @@
+
+name: Angular CI
+
+on:
+  push:
+    branches: [ feature/TITAN, master ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depht: 0
+
+      - name: Setup
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      
+      - name: Download dependencies with NPM
+        run: npm ci
+        working-directory: front
+      
+      - name: test CI with NPM
+        run: npm run test-ci
+        working-directory: front
+
+      - name: sonar-scanner
+        run: |
+          /opt/sonar-scanner/bin/sonar-scanner \
+          -Dsonar.projectKey=22_axity_angular_archetype \
+          -Dsonar.host.url=https://devtools.axity.com/sonarlts \
+          -Dsonar.login=d54f4f0b0ecc98ca94c88640833783fe52216269 \
+          -Dsonar.sourceEncoding=UTF-8 \
+          -Dsonar.sources=src/app \
+          -Dsonar.exclusions=**/node_modules/**,**/*.spec.ts,**/*.module.ts,**/app.child.imports.ts \
+          -Dsonar.tests=src \
+          -Dsonar.test.inclusions=**/*.spec.ts \
+          -Dsonar.typescript.lcov.reportPaths=coverage/lcov.info
+        working-directory: front
+        shell: bash

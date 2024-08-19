@@ -1,0 +1,27 @@
+{
+    "TestGroups": [
+        {
+            "ThreadGroup": 
+            {
+                "Loop": 5,
+                "Thread": 1,
+                "Ramp": 1
+            },
+            "Requests": 
+            [
+                {                    
+                    "Host": "www.google.com", 
+                    "Port": 0,
+                    "Protocol": "https",
+                    "Path":"",
+                    "Method":"GET",
+                    "UseCsv":false,
+                    "Content":"Content-Type",
+                    "Accept":"Accept",
+                    "ApplicationJson": "application/json",
+		            "Authorization": "false" 
+                }
+            ]
+        }        
+    ]
+}

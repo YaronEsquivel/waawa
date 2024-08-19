@@ -1,0 +1,1314 @@
+2023.07.21 16:35:50 INFO  Started: Metals version 1.0.0 in folders 'C:\TEMP\Axity_DevSecOps_Lab, C:\TEMP\demo_gatling, C:\TEMP\gatling-service, C:\TEMP\Selenium archetype' for client Visual Studio Code 1.80.1.
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMACIÓN: Flyway Community Edition 9.20.1 by Redgate
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMACIÓN: See release notes here: https://rd.gt/416ObMi
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMACIÓN: 
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\Axity_DevSecOps_Lab\.metals\metals (H2 2.1)
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.021s)
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\demo_gatling\.metals\metals (H2 2.1)
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMACIÓN: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.001s)
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMACIÓN: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": << Empty Schema >>
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "1 - Create tables"
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "2 - Server discovery"
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+jul 21, 2023 4:35:50 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.014s)
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\gatling-service\.metals\metals (H2 2.1)
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMACIÓN: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.001s)
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMACIÓN: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": << Empty Schema >>
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "1 - Create tables"
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "2 - Server discovery"
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.011s)
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\Selenium archetype\.metals\metals (H2 2.1)
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMACIÓN: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.002s)
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMACIÓN: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": << Empty Schema >>
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "1 - Create tables"
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "2 - Server discovery"
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+jul 21, 2023 4:35:51 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.009s)
+2023.07.21 16:35:51 INFO  time: initialize in 1.17s
+2023.07.21 16:35:53 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2023.07.21 16:39:03 INFO  no build target found for C:\TEMP\demo_gatling\test\scala\microservice\DemoGatling.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.21 16:39:05 INFO  time: code lens generation in 3m13s
+2023.07.21 16:39:32 INFO  Found Java version 1. Scala CLI requires at least Java 17, getting a temurin:17 JVM via coursier-jvm.
+2023.07.21 16:46:58 ERROR Unexpected error initializing server: 
+coursierapi.shaded.plexus.archiver.ArchiverException: Error while expanding C:\Users\erandy.ramirez\AppData\Local\Coursier\cache\v1\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:223)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Error on ZipFile C:\Users\erandy.ramirez\AppData\Local\Coursier\cache\v1\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:699)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:578)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:480)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:186)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.util.zip.ZipException: Archive is not a ZIP archive
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.positionAtEndOfCentralDirectoryRecord(ZipFile.java:1237)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.positionAtCentralDirectory(ZipFile.java:1104)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.populateFromCentralDirectory(ZipFile.java:1075)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:692)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:578)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:480)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:186)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023.07.21 17:45:16 INFO  Shutting down server
+2023.07.21 17:45:16 INFO  shutting down Metals
+2023.07.21 17:45:16 INFO  Exiting server
+2023.07.24 13:12:37 INFO  Started: Metals version 1.0.0 in folders 'C:\TEMP\Axity_DevSecOps_Lab, C:\TEMP\demo_gatling, C:\TEMP\gatling-service, C:\TEMP\Selenium archetype' for client Visual Studio Code 1.80.1.
+jul 24, 2023 1:12:37 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMACIÓN: Flyway Community Edition 9.20.1 by Redgate
+jul 24, 2023 1:12:37 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMACIÓN: See release notes here: https://rd.gt/416ObMi
+jul 24, 2023 1:12:37 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMACIÓN: 
+jul 24, 2023 1:12:38 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\Axity_DevSecOps_Lab\.metals\metals (H2 2.1)
+jul 24, 2023 1:12:38 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.052s)
+jul 24, 2023 1:12:38 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 24, 2023 1:12:38 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 24, 2023 1:12:39 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\demo_gatling\.metals\metals (H2 2.1)
+jul 24, 2023 1:12:39 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.005s)
+jul 24, 2023 1:12:39 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 24, 2023 1:12:39 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 24, 2023 1:12:39 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\gatling-service\.metals\metals (H2 2.1)
+jul 24, 2023 1:12:39 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.006s)
+jul 24, 2023 1:12:39 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 24, 2023 1:12:39 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 24, 2023 1:12:40 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\Selenium archetype\.metals\metals (H2 2.1)
+jul 24, 2023 1:12:40 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.004s)
+jul 24, 2023 1:12:40 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 24, 2023 1:12:40 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.24 13:12:40 INFO  time: initialize in 2.89s
+2023.07.24 13:12:44 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2023.07.24 13:12:47 INFO  no build target found for C:\TEMP\demo_gatling\test\scala\microservice\DemoGatling.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.24 13:12:48 INFO  Found Java version 1. Scala CLI requires at least Java 17, getting a temurin:17 JVM via coursier-jvm.
+2023.07.24 13:12:51 INFO  time: code lens generation in 9.37s
+2023.07.24 13:12:51 ERROR Unexpected error initializing server: 
+coursierapi.shaded.plexus.archiver.ArchiverException: Error while expanding C:\Users\erandy.ramirez\AppData\Local\Coursier\cache\v1\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:223)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Error on ZipFile C:\Users\erandy.ramirez\AppData\Local\Coursier\cache\v1\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:699)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:578)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:480)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:186)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.util.zip.ZipException: Archive is not a ZIP archive
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.positionAtEndOfCentralDirectoryRecord(ZipFile.java:1237)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.positionAtCentralDirectory(ZipFile.java:1104)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.populateFromCentralDirectory(ZipFile.java:1075)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:692)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:578)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:480)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:186)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Exception in thread "pool-1-thread-54" java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:46)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:43)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1556)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 9 more
+2023.07.24 17:46:56 WARN  Running javac-semanticdb failed for file:///C:/TEMP/Selenium%20archetype/selenium-archetype/src/test/java/stepDef/AccesoLoginSteps.java. Output:
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\stepDef\AccesoLoginSteps.java:4: error: package cucumber.api.java.en does not exist
+import cucumber.api.java.en.Given;
+                           ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\stepDef\AccesoLoginSteps.java:5: error: package cucumber.api.java.en does not exist
+import cucumber.api.java.en.When;
+                           ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\stepDef\AccesoLoginSteps.java:6: error: package pages does not exist
+import pages.PrincipalPage;
+            ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\stepDef\AccesoLoginSteps.java:10: error: cannot find symbol
+	PrincipalPage principalPage = new PrincipalPage();
+	^
+  symbol:   class PrincipalPage
+  location: class AccesoLoginSteps
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\stepDef\AccesoLoginSteps.java:12: error: cannot find symbol
+	@Given("^Se ingresa al sitio https://www.acomerclub.com.mx/home")
+	 ^
+  symbol:   class Given
+  location: class AccesoLoginSteps
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\stepDef\AccesoLoginSteps.java:18: error: cannot find symbol
+	@When("Se hace click en login")
+	 ^
+  symbol:   class When
+  location: class AccesoLoginSteps
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\stepDef\AccesoLoginSteps.java:10: error: cannot find symbol
+	PrincipalPage principalPage = new PrincipalPage();
+	                                  ^
+  symbol:   class PrincipalPage
+  location: class AccesoLoginSteps
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\stepDef\AccesoLoginSteps.java:1: error: semanticdb-javac: unknown flag 'archetype\selenium-archetype\src\test\java\stepDef'
+package stepDef;
+^
+8 errors
+2023.07.24 17:47:03 INFO  no build target found for C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\stepDef\AccesoLoginSteps.java. Using presentation compiler with project's scala-library version: 3.3.0
+Exception in thread "pool-1-thread-58" java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:46)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:43)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1556)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 9 more
+2023.07.24 17:47:04 WARN  Running javac-semanticdb failed for file:///C:/TEMP/Selenium%20archetype/selenium-archetype/src/test/java/pages/BasePage.java. Output:
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.Keys;
+                          ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:7: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:8: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:9: error: package org.openqa.selenium.interactions does not exist
+import org.openqa.selenium.interactions.Actions;
+                                       ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:10: error: package org.openqa.selenium.remote does not exist
+import org.openqa.selenium.remote.DesiredCapabilities;
+                                 ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:11: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:12: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.Select;
+                                     ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:13: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:16: error: cannot find symbol
+	protected static WebDriver driver;
+	                 ^
+  symbol:   class WebDriver
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:17: error: cannot find symbol
+	private static WebDriverWait wait;
+	               ^
+  symbol:   class WebDriverWait
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:18: error: cannot find symbol
+	private static Actions actions;
+	               ^
+  symbol:   class Actions
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:34: error: cannot find symbol
+	public BasePage(WebDriver driver) {
+	                ^
+  symbol:   class WebDriver
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:51: error: cannot find symbol
+	public static WebElement Find(String locator) {
+	              ^
+  symbol:   class WebElement
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:22: error: cannot find symbol
+		ChromeOptions chromeOptions = new ChromeOptions();
+		^
+  symbol:   class ChromeOptions
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:22: error: cannot find symbol
+		ChromeOptions chromeOptions = new ChromeOptions();
+		                                  ^
+  symbol:   class ChromeOptions
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:25: error: cannot find symbol
+		DesiredCapabilities cap = new DesiredCapabilities();
+		^
+  symbol:   class DesiredCapabilities
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:25: error: cannot find symbol
+		DesiredCapabilities cap = new DesiredCapabilities();
+		                              ^
+  symbol:   class DesiredCapabilities
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:26: error: cannot find symbol
+		cap.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+		                  ^
+  symbol:   variable ChromeOptions
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:28: error: cannot find symbol
+		driver = new ChromeDriver(chromeOptions);
+		             ^
+  symbol:   class ChromeDriver
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:30: error: cannot find symbol
+		wait = new WebDriverWait(driver, 20);
+		           ^
+  symbol:   class WebDriverWait
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:36: error: cannot find symbol
+		wait = new WebDriverWait(driver, 20);
+		           ^
+  symbol:   class WebDriverWait
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:52: error: cannot find symbol
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
+		                                                                ^
+  symbol:   variable By
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:52: error: cannot find symbol
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
+		                  ^
+  symbol:   variable ExpectedConditions
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:69: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:69: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		                   ^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:75: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:75: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		                   ^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:81: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:81: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		                   ^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:135: error: cannot find symbol
+		Find(locator).sendKeys(Keys.ARROW_DOWN);
+		                       ^
+  symbol:   variable Keys
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:140: error: cannot find symbol
+		Find(locator).sendKeys(Keys.ENTER);
+		                       ^
+  symbol:   variable Keys
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:1: error: semanticdb-javac: unknown flag 'archetype\selenium-archetype\src\test\java\pages'
+package pages;
+^
+35 errors
+jul 24, 2023 5:47:48 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report C:\TEMP\Selenium archetype\.metals\.reports\metals-full\r_compiler-error_1690242468152
+jul 24, 2023 5:47:48 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report C:\TEMP\Selenium archetype\.metals\.reports\metals-full\r_compiler-error_1690242468567
+2023.07.24 17:47:49 INFO  Shutting down server
+2023.07.24 17:47:49 INFO  shutting down Metals
+2023.07.24 17:47:49 INFO  Exiting server
+2023.07.25 11:13:15 INFO  Started: Metals version 1.0.0 in folders 'C:\TEMP\Axity_DevSecOps_Lab, C:\TEMP\demo_gatling, C:\TEMP\gatling-service, C:\TEMP\Selenium archetype' for client Visual Studio Code 1.80.1.
+jul 25, 2023 11:13:15 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMACIÓN: Flyway Community Edition 9.20.1 by Redgate
+jul 25, 2023 11:13:15 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMACIÓN: See release notes here: https://rd.gt/416ObMi
+jul 25, 2023 11:13:15 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMACIÓN: 
+jul 25, 2023 11:13:15 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\Axity_DevSecOps_Lab\.metals\metals (H2 2.1)
+jul 25, 2023 11:13:15 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.025s)
+jul 25, 2023 11:13:15 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 25, 2023 11:13:15 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\demo_gatling\.metals\metals (H2 2.1)
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.003s)
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\gatling-service\.metals\metals (H2 2.1)
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.003s)
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\Selenium archetype\.metals\metals (H2 2.1)
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.003s)
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 25, 2023 11:13:16 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.25 11:13:16 INFO  time: initialize in 1.08s
+Exception in thread "pool-1-thread-5" java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:46)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:43)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1556)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 9 more
+2023.07.25 11:13:18 WARN  Running javac-semanticdb failed for file:///C:/TEMP/Selenium%20archetype/selenium-archetype/src/test/java/pages/BasePage.java. Output:
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.Keys;
+                          ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:7: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:8: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:9: error: package org.openqa.selenium.interactions does not exist
+import org.openqa.selenium.interactions.Actions;
+                                       ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:10: error: package org.openqa.selenium.remote does not exist
+import org.openqa.selenium.remote.DesiredCapabilities;
+                                 ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:11: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:12: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.Select;
+                                     ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:13: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:16: error: cannot find symbol
+	protected static WebDriver driver;
+	                 ^
+  symbol:   class WebDriver
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:17: error: cannot find symbol
+	private static WebDriverWait wait;
+	               ^
+  symbol:   class WebDriverWait
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:18: error: cannot find symbol
+	private static Actions actions;
+	               ^
+  symbol:   class Actions
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:34: error: cannot find symbol
+	public BasePage(WebDriver driver) {
+	                ^
+  symbol:   class WebDriver
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:51: error: cannot find symbol
+	public static WebElement Find(String locator) {
+	              ^
+  symbol:   class WebElement
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:22: error: cannot find symbol
+		ChromeOptions chromeOptions = new ChromeOptions();
+		^
+  symbol:   class ChromeOptions
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:22: error: cannot find symbol
+		ChromeOptions chromeOptions = new ChromeOptions();
+		                                  ^
+  symbol:   class ChromeOptions
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:25: error: cannot find symbol
+		DesiredCapabilities cap = new DesiredCapabilities();
+		^
+  symbol:   class DesiredCapabilities
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:25: error: cannot find symbol
+		DesiredCapabilities cap = new DesiredCapabilities();
+		                              ^
+  symbol:   class DesiredCapabilities
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:26: error: cannot find symbol
+		cap.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+		                  ^
+  symbol:   variable ChromeOptions
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:28: error: cannot find symbol
+		driver = new ChromeDriver(chromeOptions);
+		             ^
+  symbol:   class ChromeDriver
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:30: error: cannot find symbol
+		wait = new WebDriverWait(driver, 20);
+		           ^
+  symbol:   class WebDriverWait
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:36: error: cannot find symbol
+		wait = new WebDriverWait(driver, 20);
+		           ^
+  symbol:   class WebDriverWait
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:52: error: cannot find symbol
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
+		                                                                ^
+  symbol:   variable By
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:52: error: cannot find symbol
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
+		                  ^
+  symbol:   variable ExpectedConditions
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:69: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:69: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		                   ^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:75: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:75: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		                   ^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:81: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:81: error: cannot find symbol
+		Select combo = new Select(Find(locator));
+		                   ^
+  symbol:   class Select
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:135: error: cannot find symbol
+		Find(locator).sendKeys(Keys.ARROW_DOWN);
+		                       ^
+  symbol:   variable Keys
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:140: error: cannot find symbol
+		Find(locator).sendKeys(Keys.ENTER);
+		                       ^
+  symbol:   variable Keys
+  location: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java:1: error: semanticdb-javac: unknown flag 'archetype\selenium-archetype\src\test\java\pages'
+package pages;
+^
+35 errors
+2023.07.25 11:13:18 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2023.07.25 11:13:19 INFO  no build target found for C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\BasePage.java. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.25 11:13:18 INFO  Found Java version 1. Scala CLI requires at least Java 17, getting a temurin:17 JVM via coursier-jvm.
+2023.07.25 11:13:19 ERROR Unexpected error initializing server: 
+coursierapi.shaded.plexus.archiver.ArchiverException: Error while expanding C:\Users\erandy.ramirez\AppData\Local\Coursier\cache\v1\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:223)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Error on ZipFile C:\Users\erandy.ramirez\AppData\Local\Coursier\cache\v1\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:699)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:578)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:480)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:186)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.util.zip.ZipException: Archive is not a ZIP archive
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.positionAtEndOfCentralDirectoryRecord(ZipFile.java:1237)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.positionAtCentralDirectory(ZipFile.java:1104)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.populateFromCentralDirectory(ZipFile.java:1075)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:692)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:578)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:480)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:186)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+jul 25, 2023 11:13:20 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report C:\TEMP\Selenium archetype\.metals\.reports\metals-full\r_compiler-error_1690305200718
+Exception in thread "pool-1-thread-8" java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:46)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:43)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1556)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 9 more
+2023.07.25 11:14:02 WARN  Running javac-semanticdb failed for file:///C:/TEMP/Selenium%20archetype/selenium-archetype/src/test/java/pages/AutomationPage1.java. Output:
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\AutomationPage1.java:3: error: package io.cucumber.datatable.dependency.com.fasterxml.jackson.databind.annotation does not exist
+import io.cucumber.datatable.dependency.com.fasterxml.jackson.databind.annotation.JsonAppend;
+                                                                                 ^
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\AutomationPage1.java:5: error: cannot find symbol
+public class AutomationPage1 extends BasePage{
+                                     ^
+  symbol: class BasePage
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\AutomationPage1.java:14: error: cannot find symbol
+        super(driver);
+              ^
+  symbol:   variable driver
+  location: class AutomationPage1
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\AutomationPage1.java:18: error: cannot find symbol
+        navigateTo("https://www.oxxo.com");
+        ^
+  symbol:   method navigateTo(String)
+  location: class AutomationPage1
+C:\TEMP\Selenium archetype\selenium-archetype\src\test\java\pages\AutomationPage1.java:1: error: semanticdb-javac: unknown flag 'archetype\selenium-archetype\src\test\java\pages'
+package pages;
+^
+5 errors
+Exception in thread "pool-1-thread-24" java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:46)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:43)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1556)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 9 more
+2023.07.25 11:35:06 INFO  Shutting down server
+2023.07.25 11:35:06 INFO  shutting down Metals
+2023.07.25 11:35:06 INFO  Exiting server
+2023.07.25 13:21:44 INFO  Started: Metals version 1.0.0 in folders 'C:\TEMP\Axity_DevSecOps_Lab, C:\TEMP\demo_gatling, C:\TEMP\gatling-service, C:\TEMP\Selenium archetype' for client Visual Studio Code 1.80.1.
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMACIÓN: Flyway Community Edition 9.20.1 by Redgate
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMACIÓN: See release notes here: https://rd.gt/416ObMi
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMACIÓN: 
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\Axity_DevSecOps_Lab\.metals\metals (H2 2.1)
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.022s)
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\demo_gatling\.metals\metals (H2 2.1)
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.003s)
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\gatling-service\.metals\metals (H2 2.1)
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.002s)
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 25, 2023 1:21:44 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 25, 2023 1:21:45 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\Selenium archetype\.metals\metals (H2 2.1)
+jul 25, 2023 1:21:45 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.002s)
+jul 25, 2023 1:21:45 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 25, 2023 1:21:45 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.25 13:21:45 INFO  time: initialize in 1.02s
+2023.07.25 13:21:47 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2023.07.25 13:21:48 INFO  no build target found for C:\TEMP\demo_gatling\test\scala\microservice\DemoGatling.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.25 13:21:48 INFO  Found Java version 1. Scala CLI requires at least Java 17, getting a temurin:17 JVM via coursier-jvm.
+2023.07.25 13:21:50 INFO  time: code lens generation in 4.74s
+2023.07.25 13:21:50 INFO  time: code lens generation in 1.62s
+2023.07.25 13:21:53 ERROR Unexpected error initializing server: 
+coursierapi.shaded.plexus.archiver.ArchiverException: Error while expanding C:\Users\erandy.ramirez\AppData\Local\Coursier\cache\v1\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:223)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Error on ZipFile C:\Users\erandy.ramirez\AppData\Local\Coursier\cache\v1\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:699)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:578)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:480)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:186)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.util.zip.ZipException: Archive is not a ZIP archive
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.positionAtEndOfCentralDirectoryRecord(ZipFile.java:1237)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.positionAtCentralDirectory(ZipFile.java:1104)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.populateFromCentralDirectory(ZipFile.java:1075)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:692)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:578)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:480)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:186)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+jul 26, 2023 11:36:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 60
+jul 26, 2023 11:37:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 26, 2023 11:37:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2023.07.26 12:43:53 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatling.scala
+2023.07.26 12:44:30 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatling.scala
+jul 26, 2023 3:32:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 505
+2023.07.26 15:33:10 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:34:26 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:35:16 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:35:16 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:35:17 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:35:18 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:35:18 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:35:19 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:40:52 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:42:41 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:46:09 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:46:10 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:46:10 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:46:14 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatling.scala
+2023.07.26 15:46:15 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatling.scala
+2023.07.26 15:46:15 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatling.scala
+2023.07.26 15:52:18 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:18 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:18 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:21 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:21 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:21 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:24 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:24 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:24 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:26 WARN  Using indexes to guess the definition of GatlingDeleteUserCalls
+2023.07.26 15:52:28 WARN  Using indexes to guess the definition of GatlingDeleteUserCalls
+2023.07.26 15:52:31 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:31 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:52:31 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+jul 26, 2023 3:53:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1080
+2023.07.26 15:58:28 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 15:58:58 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.26 15:59:50 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.26 16:33:55 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.26 16:34:33 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.26 16:34:34 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.26 16:34:34 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.26 16:34:35 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.26 16:35:40 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingGetPing.scala
+jul 26, 2023 5:31:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 26, 2023 5:31:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 26, 2023 5:31:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 26, 2023 5:31:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 26, 2023 5:45:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 26, 2023 5:46:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1674
+2023.07.26 17:46:44 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\LoginSimulation.scala
+2023.07.26 17:46:44 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\LoginSimulation.scala
+2023.07.26 17:46:44 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\LoginSimulation.scala
+2023.07.26 17:46:44 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\LoginSimulation.scala
+2023.07.26 17:46:44 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\LoginSimulation.scala
+2023.07.26 17:46:50 WARN  Using indexes to guess the definition of baseUrl
+2023.07.26 17:46:53 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\LoginSimulation.scala
+jul 26, 2023 6:09:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.nio.file.FileSystemNotFoundException: C:\Program%2520Files\Java\jdk1.8.0_351\src.zip
+java.util.concurrent.CompletionException: java.nio.file.FileSystemNotFoundException: C:\Program%2520Files\Java\jdk1.8.0_351\src.zip
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.nio.file.FileSystemNotFoundException: C:\Program%2520Files\Java\jdk1.8.0_351\src.zip
+	at com.sun.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:120)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:117)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:326)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:276)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:126)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$4(MtagsEnrichments.scala:179)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:158)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:179)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.Compilers.$anonfun$definition$3(Compilers.scala:696)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionJavaList.map(MetalsEnrichments.scala:236)
+	at scala.meta.internal.metals.Compilers.$anonfun$definition$2(Compilers.scala:695)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.07.26 18:11:35 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\DemoGatlingGetUser.scala
+2023.07.26 18:14:46 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\microservice\GetUserSimulation.scala
+jul 26, 2023 6:21:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2023.07.26 18:22:29 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\IDEPathHelper.scala
+2023.07.26 18:23:17 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\IDEPathHelper.scala
+jul 26, 2023 6:24:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.nio.file.FileSystemNotFoundException: C:\Program%2520Files\Java\jdk1.8.0_351\src.zip
+java.util.concurrent.CompletionException: java.nio.file.FileSystemNotFoundException: C:\Program%2520Files\Java\jdk1.8.0_351\src.zip
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.nio.file.FileSystemNotFoundException: C:\Program%2520Files\Java\jdk1.8.0_351\src.zip
+	at com.sun.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:120)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:117)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:326)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:276)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:126)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$4(MtagsEnrichments.scala:179)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:158)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:179)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.Compilers.$anonfun$definition$3(Compilers.scala:696)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionJavaList.map(MetalsEnrichments.scala:236)
+	at scala.meta.internal.metals.Compilers.$anonfun$definition$2(Compilers.scala:695)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.07.26 18:24:10 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\IDEPathHelper.scala
+jul 26, 2023 6:27:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2265
+jul 26, 2023 6:27:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.nio.file.FileSystemNotFoundException: C:\Program%2520Files\Java\jdk1.8.0_351\src.zip
+java.util.concurrent.CompletionException: java.nio.file.FileSystemNotFoundException: C:\Program%2520Files\Java\jdk1.8.0_351\src.zip
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.nio.file.FileSystemNotFoundException: C:\Program%2520Files\Java\jdk1.8.0_351\src.zip
+	at com.sun.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:120)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:117)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:326)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:276)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:126)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$4(MtagsEnrichments.scala:179)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:158)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:179)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.Compilers.$anonfun$definition$3(Compilers.scala:696)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionJavaList.map(MetalsEnrichments.scala:236)
+	at scala.meta.internal.metals.Compilers.$anonfun$definition$2(Compilers.scala:695)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.07.26 18:27:37 WARN  no build target for: C:\TEMP\demo_gatling\test\scala\IDEPathHelper.scala
+2023.07.26 18:28:27 ERROR text document: file:///c:/TEMP/demo_gatling/test/scala/microservice/GetUserSimulation.scala
+java.nio.file.NoSuchFileException: c:\TEMP\demo_gatling\test\scala\microservice\GetUserSimulation.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1198)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2684)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1541)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1539)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+jul 26, 2023 6:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2323
+jul 26, 2023 6:29:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2336
+2023.07.26 18:31:26 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\GetUserSimulation.scala
+2023.07.26 18:31:46 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\GetUserSimulation.scala
+2023.07.26 18:31:51 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\GetUserSimulation.scala
+2023.07.26 18:34:58 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.26 18:35:02 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingGetUser.scala
+2023.07.26 18:35:06 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPostUser.scala
+2023.07.26 18:35:10 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPutUser.scala
+2023.07.26 18:35:16 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingGetUser.scala
+2023.07.26 18:36:03 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPutUser.scala
+2023.07.26 18:38:25 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPutUser.scala
+2023.07.26 18:38:35 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPostUser.scala
+2023.07.26 18:38:43 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.26 18:47:21 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+2023.07.26 18:47:40 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.26 18:47:47 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.26 18:47:52 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingGetUser.scala
+2023.07.26 18:47:59 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPostUser.scala
+2023.07.26 18:48:06 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPutUser.scala
+2023.07.26 18:54:21 INFO  Shutting down server
+2023.07.26 18:54:21 INFO  shutting down Metals
+2023.07.26 18:54:21 INFO  Exiting server
+2023.07.27 08:59:20 INFO  Started: Metals version 1.0.0 in folders 'C:\TEMP\Axity_DevSecOps_Lab, C:\TEMP\demo_gatling, C:\TEMP\gatling-service, C:\TEMP\Selenium archetype' for client Visual Studio Code 1.80.1.
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMACIÓN: Flyway Community Edition 9.20.1 by Redgate
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMACIÓN: See release notes here: https://rd.gt/416ObMi
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMACIÓN: 
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\Axity_DevSecOps_Lab\.metals\metals (H2 2.1)
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.037s)
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\demo_gatling\.metals\metals (H2 2.1)
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.004s)
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 27, 2023 8:59:21 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 27, 2023 8:59:22 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\gatling-service\.metals\metals (H2 2.1)
+jul 27, 2023 8:59:22 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.004s)
+jul 27, 2023 8:59:22 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 27, 2023 8:59:22 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+jul 27, 2023 8:59:22 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\Selenium archetype\.metals\metals (H2 2.1)
+jul 27, 2023 8:59:22 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.003s)
+jul 27, 2023 8:59:22 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": 4
+jul 27, 2023 8:59:22 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.27 08:59:22 INFO  time: initialize in 1.5s
+2023.07.27 08:59:26 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2023.07.27 08:59:28 INFO  no build target found for C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.27 08:59:29 INFO  Found Java version 1. Scala CLI requires at least Java 17, getting a temurin:17 JVM via coursier-jvm.
+2023.07.27 08:59:31 INFO  time: code lens generation in 7.92s
+2023.07.27 08:59:47 ERROR Unexpected error initializing server: 
+coursierapi.shaded.plexus.archiver.ArchiverException: Error while expanding C:\Users\erandy.ramirez\AppData\Local\Coursier\cache\v1\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:223)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Error on ZipFile C:\Users\erandy.ramirez\AppData\Local\Coursier\cache\v1\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:699)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:578)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:480)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:186)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.util.zip.ZipException: Archive is not a ZIP archive
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.positionAtEndOfCentralDirectoryRecord(ZipFile.java:1237)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.positionAtCentralDirectory(ZipFile.java:1104)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.populateFromCentralDirectory(ZipFile.java:1075)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:692)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:578)
+	at coursierapi.shaded.commonscompress.archivers.zip.ZipFile.<init>(ZipFile.java:480)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:186)
+	at coursierapi.shaded.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:165)
+	at coursierapi.shaded.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:160)
+	at coursierapi.shaded.coursier.cache.UnArchiver$DefaultUnArchiver.extract(UnArchiver.scala:70)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$2(ArchiveCache.scala:71)
+	at coursierapi.shaded.scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at coursierapi.shaded.coursier.cache.ArchiveCache.$anonfun$get$1(ArchiveCache.scala:86)
+	at coursierapi.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at coursierapi.shaded.coursier.util.Task$.$anonfun$delay$2(Task.scala:47)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+jul 27, 2023 9:10:04 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMACIÓN: Database: jdbc:h2:file:C:\TEMP\DEMO stress-gatling-master\.metals\metals (H2 2.1)
+jul 27, 2023 9:10:04 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMACIÓN: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+jul 27, 2023 9:10:04 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMACIÓN: Successfully validated 4 migrations (execution time 00:00.005s)
+jul 27, 2023 9:10:04 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMACIÓN: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+jul 27, 2023 9:10:04 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMACIÓN: Current version of schema "PUBLIC": << Empty Schema >>
+jul 27, 2023 9:10:04 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "1 - Create tables"
+jul 27, 2023 9:10:04 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "2 - Server discovery"
+jul 27, 2023 9:10:04 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+jul 27, 2023 9:10:04 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMACIÓN: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+jul 27, 2023 9:10:04 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMACIÓN: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.026s)
+2023.07.27 09:10:04 INFO  logging to files C:\TEMP\Axity_DevSecOps_Lab\.metals\metals.log,C:\TEMP\demo_gatling\.metals\metals.log,C:\TEMP\gatling-service\.metals\metals.log,C:\TEMP\Selenium archetype\.metals\metals.log,C:\TEMP\DEMO stress-gatling-master\.metals\metals.log
+2023.07.27 09:10:04 WARN  Build server is not auto-connectable.
+2023.07.27 09:10:14 WARN  no build target for: C:\TEMP\DEMO stress-gatling-master\src\test\scala\microservice\DemoGatling.scala
+2023.07.27 09:10:15 INFO  no build target found for C:\TEMP\DEMO stress-gatling-master\src\test\scala\microservice\DemoGatling.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.27 09:10:16 INFO  time: code lens generation in 1.52s
+2023.07.27 09:15:58 INFO  logging to files C:\TEMP\Axity_DevSecOps_Lab\.metals\metals.log,C:\TEMP\demo_gatling\.metals\metals.log,C:\TEMP\gatling-service\.metals\metals.log,C:\TEMP\Selenium archetype\.metals\metals.log
+2023.07.27 09:36:06 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.27 09:36:11 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.27 09:36:16 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingGetUser.scala
+2023.07.27 09:36:20 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPostUser.scala
+2023.07.27 09:36:26 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPutUser.scala
+jul 27, 2023 11:17:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 490
+2023.07.27 11:17:27 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.27 11:17:46 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingDeleteUser.scala
+2023.07.27 11:18:02 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingGetPing.scala
+2023.07.27 11:18:13 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingGetUser.scala
+2023.07.27 11:18:26 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPutUser.scala
+2023.07.27 11:18:30 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatlingPostUser.scala
+2023.07.27 11:18:58 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+2023.07.27 12:12:57 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+2023.07.27 12:14:52 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+2023.07.27 12:15:35 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+jul 27, 2023 12:30:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 926
+2023.07.27 16:41:53 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+2023.07.27 16:47:09 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+2023.07.27 16:48:04 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+2023.07.27 16:50:43 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+2023.07.27 16:55:32 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+2023.07.27 16:57:36 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+2023.07.27 16:58:25 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala
+jul 27, 2023 5:36:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1306
+2023.07.27 17:37:03 WARN  no build target for: C:\TEMP\demo_gatling\src\test\scala\microservice\DemoGatling.scala

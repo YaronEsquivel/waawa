@@ -1,0 +1,8 @@
+{
+    "id": 1,
+    "name": "test update",
+    "description": "test update",
+    "jsSchema": "test update",
+    "jsUiSchema": "test update",
+    "active": true
+}

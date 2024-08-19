@@ -1,0 +1,8 @@
+{
+    "id": 0,
+    "name": "test",
+    "description": "test",
+    "jsSchema": "test",
+    "jsUiSchema": "test",
+    "active": true
+}
